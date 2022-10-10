@@ -1,0 +1,6 @@
+C:\Users\sagid\source\repos\PresentacionAgencia\EntidadAgencia\bin\Debug\EntidadAgencia.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\EntidadAgencia\bin\Debug\EntidadAgencia.pdb
+C:\Users\sagid\source\repos\PresentacionAgencia\EntidadAgencia\obj\Debug\EntidadAgencia.csproj.AssemblyReference.cache
+C:\Users\sagid\source\repos\PresentacionAgencia\EntidadAgencia\obj\Debug\EntidadAgencia.csproj.CoreCompileInputs.cache
+C:\Users\sagid\source\repos\PresentacionAgencia\EntidadAgencia\obj\Debug\EntidadAgencia.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\EntidadAgencia\obj\Debug\EntidadAgencia.pdb

@@ -1,0 +1,10 @@
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\bin\Debug\AccesoDatosAgencia.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\bin\Debug\AccesoDatosAgencia.pdb
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\bin\Debug\ConectarBda.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\bin\Debug\EntidadAgencia.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\bin\Debug\EntidadAgencia.pdb
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\obj\Debug\AccesoDatosAgencia.csproj.AssemblyReference.cache
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\obj\Debug\AccesoDatosAgencia.csproj.CoreCompileInputs.cache
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\obj\Debug\AccesoDatosAgencia.csproj.CopyComplete
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\obj\Debug\AccesoDatosAgencia.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\AccesoDatosAgencia\obj\Debug\AccesoDatosAgencia.pdb

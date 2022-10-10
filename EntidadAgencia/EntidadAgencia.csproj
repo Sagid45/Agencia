@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1CB93351-4D8A-4949-AE5C-9A97445217F4}</ProjectGuid>
+    <ProjectGuid>{5BF2D6B2-E485-4163-814C-C152A1AE421C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ManejadorAgencia</RootNamespace>
-    <AssemblyName>ManejadorAgencia</AssemblyName>
+    <RootNamespace>EntidadAgencia</RootNamespace>
+    <AssemblyName>EntidadAgencia</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -31,13 +31,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Crud">
-      <HintPath>D:\escul 4\Topicos Avanzados de programacion\Crud.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,19 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ManejadorHerramienta.cs" />
-    <Compile Include="IManejador.cs" />
-    <Compile Include="ManejadorPermisosh.cs" />
-    <Compile Include="ManejadorPermisosp.cs" />
-    <Compile Include="ManejadorProductos.cs" />
-    <Compile Include="ManejadorUsuarios.cs" />
+    <Compile Include="Herramientas.cs" />
+    <Compile Include="Permisosh.cs" />
+    <Compile Include="Permisosp.cs" />
+    <Compile Include="Productos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AccesoDatosAgencia\AccesoDatosAgencia.csproj">
-      <Project>{bdc16957-3d59-457a-887b-8ae7d3dab7c1}</Project>
-      <Name>AccesoDatosAgencia</Name>
-    </ProjectReference>
+    <Compile Include="Usuarios.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,10 @@
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\bin\Debug\ManejadorAgencia.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\bin\Debug\ManejadorAgencia.pdb
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\bin\Debug\AccesoDatosAgencia.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\bin\Debug\Crud.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\bin\Debug\AccesoDatosAgencia.pdb
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\obj\Debug\ManejadorAgencia.csproj.AssemblyReference.cache
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\obj\Debug\ManejadorAgencia.csproj.CoreCompileInputs.cache
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\obj\Debug\ManejadorAgencia.csproj.CopyComplete
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\obj\Debug\ManejadorAgencia.dll
+C:\Users\sagid\source\repos\PresentacionAgencia\ManejadorAgencia\obj\Debug\ManejadorAgencia.pdb
