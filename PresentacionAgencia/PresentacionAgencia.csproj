@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{CB828119-4F4B-426F-8DF9-18F260CB7EF2}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PresentacionAgencia</RootNamespace>
     <AssemblyName>PresentacionAgencia</AssemblyName>
@@ -30,9 +30,14 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,8 +46,105 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAddRefacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddRefacciones.Designer.cs">
+      <DependentUpon>FrmAddRefacciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddTaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddTaller.Designer.cs">
+      <DependentUpon>FrmAddTaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAddUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAddUsuarios.Designer.cs">
+      <DependentUpon>FrmAddUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicio.Designer.cs">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frminiciosesion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frminiciosesion.Designer.cs">
+      <DependentUpon>Frminiciosesion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRefacciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRefacciones.Designer.cs">
+      <DependentUpon>FrmRefacciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTaller.Designer.cs">
+      <DependentUpon>FrmTaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmUsuarios.Designer.cs">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmAddRefacciones.resx">
+      <DependentUpon>FrmAddRefacciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddTaller.resx">
+      <DependentUpon>FrmAddTaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAddUsuarios.resx">
+      <DependentUpon>FrmAddUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInicio.resx">
+      <DependentUpon>FrmInicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frminiciosesion.resx">
+      <DependentUpon>Frminiciosesion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRefacciones.resx">
+      <DependentUpon>FrmRefacciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTaller.resx">
+      <DependentUpon>FrmTaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmUsuarios.resx">
+      <DependentUpon>FrmUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AccesoDatosAgencia\AccesoDatosAgencia.csproj">
+      <Project>{bdc16957-3d59-457a-887b-8ae7d3dab7c1}</Project>
+      <Name>AccesoDatosAgencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EntidadAgencia\EntidadAgencia.csproj">
+      <Project>{5bf2d6b2-e485-4163-814c-c152a1ae421c}</Project>
+      <Name>EntidadAgencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ManejadorAgencia\ManejadorAgencia.csproj">
+      <Project>{1cb93351-4d8a-4949-ae5c-9a97445217f4}</Project>
+      <Name>ManejadorAgencia</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -48,9 +48,9 @@ namespace ManejadorAgencia
             tabla.RowTemplate.Height = 30;
             tabla.DataSource =
                 au.Mostrar(filtro).Tables["usuarios"];
-            tabla.Columns.Insert(6, g.Boton(
-                "Editar", Color.Green));
             tabla.Columns.Insert(7, g.Boton(
+                "Editar", Color.Green));
+            tabla.Columns.Insert(8, g.Boton(
                 "Borrar", Color.Red));
             tabla.Columns[0].Visible = false;
         }

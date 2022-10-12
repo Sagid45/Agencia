@@ -9,7 +9,7 @@ namespace EntidadAgencia
 {
     public class Usuarios
     {
-        public Usuarios(int idUsuario, string nombre, string apellidoP, string apellidoM, string fechaNacimiento, string rFC)
+        public Usuarios(int idUsuario, string nombre, string apellidoP, string apellidoM, string fechaNacimiento, string rFC, string contraseña)
         {
             IdUsuario = idUsuario;
             Nombre = nombre;
@@ -17,6 +17,7 @@ namespace EntidadAgencia
             ApellidoM = apellidoM;
             FechaNacimiento = fechaNacimiento;
             RFC = rFC;
+            Contraseña = contraseña;
         }
 
         public int IdUsuario { get; set; }
@@ -25,5 +26,6 @@ namespace EntidadAgencia
         public string ApellidoM { get; set; }
         public string FechaNacimiento { get; set; }
         public string RFC { get; set; }
+        public string Contraseña { get; set; }
     }
 }

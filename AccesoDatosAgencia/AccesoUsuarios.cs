@@ -21,14 +21,14 @@ namespace AccesoDatosAgencia
         public void Guardar(dynamic Entidad)
         {
             b.comando(string.Format("call insertProducto(" +
-              "'{0}','{1}','{2}','{3}','{4}',{5})", Entidad.Nombre,
-                  Entidad.ApellidoP, Entidad.ApellidoM, Entidad.FechaNacimiento,Entidad.RFC, Entidad.IdUsuario));
+              "'{0}','{1}','{2}','{3}','{4}',{5},'{6}')", Entidad.Nombre,
+                  Entidad.ApellidoP, Entidad.ApellidoM, Entidad.FechaNacimiento,Entidad.RFC,Entidad.Contraseña, Entidad.IdUsuario));
         }
         public void Actuailizar(dynamic Entidad)
         {
             b.comando(string.Format("call updateUsuarios(" +
-               "'{0}','{1}','{2}','{3}','{4}',{5})", Entidad.Nombre,
-                   Entidad.ApellidoP, Entidad.ApellidoM, Entidad.FechaNacimiento, Entidad.RFC, Entidad.IdUsuario));
+               "'{0}','{1}','{2}','{3}','{4}',{5},'{6}')", Entidad.Nombre,
+                   Entidad.ApellidoP, Entidad.ApellidoM, Entidad.FechaNacimiento, Entidad.RFC, Entidad.Contraseña, Entidad.IdUsuario));
         }
 
         public DataSet Mostrar(string filtro)
